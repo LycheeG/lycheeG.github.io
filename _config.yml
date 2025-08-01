@@ -163,6 +163,7 @@ footer:
 
 
 # Reading Files
+include: ["_pages"]
 include:
   - .htaccess
   - _pages
