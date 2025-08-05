@@ -1,5 +1,5 @@
 ---
-permalink: /home/
+permalink: /
 title: Welcome to Your Studio
 yamllayout: home
 ---
