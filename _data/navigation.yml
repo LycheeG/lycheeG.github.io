@@ -1,9 +1,13 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "Home"
     url: /
   - title: "About"
     url: /about/
+  - title: Booking
+    url: /booking/
+  - title: Contact
+  url: /contact/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
