@@ -4,8 +4,6 @@ main:
     url: /
   - title: "About"
     url: /about/
-  - title: Booking
-    url: /booking/
   - title: Contact
     url: /contact/
   # - title: "Sample Posts"
