@@ -7,7 +7,7 @@ main:
   - title: Booking
     url: /booking/
   - title: Contact
-  url: /contact/
+    url: /contact/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
