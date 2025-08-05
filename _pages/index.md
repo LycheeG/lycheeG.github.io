@@ -1,49 +1,49 @@
 ---
 permalink: /
-title: Welcome to Your Studio
+title: Welcome to My Home Studio at Unit 69, 3028 The Boulevard, Carrara
 yamllayout: home
+description: Welcome to Lovely Nails Studio, a cozy home-based nail salon offering personalized manicures, pedicures, nail art, and spa treatments.
+
 ---
 
-<h1 style="color: #ff69b4;">Nail & Eyelash Services</h1>
-<p>Discover our premium services at affordable prices.</p>
+# Lovely Nails Studio
 
-<h2 style="color: #00ced1;">Nail Services</h2>
-<table style="width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #f0f8ff;">
-      <th style="padding: 10px; border: 1px solid #ddd;">Service</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">Classic Manicure</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">$25</td>
-    </tr>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">Gel Polish</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">$35</td>
-    </tr>
-    <!-- Add more services -->
-  </tbody>
-</table>
+## Home
 
-<h2 style="color: #00ced1;">Eyelash Extensions</h2>
-<table style="width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="background-color: #f0f8ff;">
-      <th style="padding: 10px; border: 1px solid #ddd;">Service</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding: 10px; border: 1px solid #ddd;">Full Set</td>
-      <td style="padding: 10px; border: 1px solid #ddd;">$80</td>
-    </tr>
-    <!-- Add more services -->
-  </tbody>
-</table>
+![Hero Image](https://images.unsplash.com/photo-1599661197260-51c2253e6d02?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80)
 
-<a href="/booking/" style="background-color: #ff69b4; color: white; padding: 10px 20px; text-decoration: none;">Book Now</a>
+Welcome to **Lovely Nails Studio**!  
+Pamper your hands and feet with our expert nail care services.  
+[Book Now](#contact)
+
+## Services
+
+Explore our range of professional nail care services:
+
+- **Manicure**  
+  Classic, gel, or acrylic manicures tailored to your style.
+- **Pedicure**  
+  Relaxing pedicures with a focus on comfort and beauty.
+- **Nail Art**  
+  Custom designs to express your unique personality.
+- **Spa Treatments**  
+  Luxurious spa packages for ultimate relaxation.
+
+## About Us
+
+Lovely Nails Studio is a cozy, home-based nail salon dedicated to providing high-quality, personalized nail care. With a passion for creativity and attention to detail, we ensure every client leaves feeling confident and beautiful.
+
+## Contact Us
+
+Ready to book your appointment? Reach out today!
+
+- **Email**: [info@lovelynailsstudio.com](mailto:info@lovelynailsstudio.com)
+- **Phone**: [(123) 456-7890](tel:+1234567890)
+- **Address**: 123 Beauty Lane, Your City, ST 12345
+
+[Book Your Appointment](mailto:info@lovelynailsstudio.com)
+
+---
+
+&copy; 2025 Lovely Nails Studio. All rights reserved.
 
