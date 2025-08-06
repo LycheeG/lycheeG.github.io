@@ -6,7 +6,7 @@ layout: splash
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/logo.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/contact/"
@@ -14,7 +14,7 @@ excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.3">Latest release v4.27.3</a></small>
 feature_row:
-  - image_path: /assets/images/logo.jpg
+  - image_path: /assets/images/nailpaint.jpg
     alt: "customizable"
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
