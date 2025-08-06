@@ -29,7 +29,7 @@ All services include complimentary consultation to ensure your desired look. Pri
 - **Builder Gel InFill with Tip**: Extra $10   
  Extend and refresh your builder gel nails with added tips for length, including shaping and your choice of polish for a polished look.  
 
-### Pedicure
+### Pedicures
 - **Classic Pedicure**: $40  
   Nail shaping, cuticle care, foot soak, and polish.  
 - **Gel Pedicure**: $55  
@@ -53,16 +53,16 @@ All services include complimentary consultation to ensure your desired look. Pri
 - **Volume**: $120  
  Lush, multi-dimensional lashes created with multiple lightweight extensions per natural lash, delivering bold volume and glamour.  
 - **Lash Romoval & Cleansing**: $30
-  Safe, gentle removal of eyelash extensions with a thorough cleansing to refresh and prepare your natural lashes for future treatments.  
+ Safe, gentle removal of eyelash extensions with a thorough cleansing to refresh and prepare your natural lashes for future treatments.  
 - **Refill**
-  1week free/2weeks 50%/3weeks 80%   
+ 1week free/2weeks 50%/3weeks 80%   
   
 
 ### Add-Ons
 - **Gel Polish Removal**: Extra $5
-  Safe removal of gel polish.  
+ Safe removal of gel polish.  
 - **Acrylic/Builder Gel Removal**: $20
-  Safe removal of Acrylic/Builder Gel
+ Safe removal of Acrylic/Builder Gel
 - **Cutbuff Shape**: $15
 - **Buff Shape + Normal Polish**: $25
 
