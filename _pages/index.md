@@ -59,9 +59,7 @@ All services include complimentary consultation to ensure your desired look. Pri
 
 ### Add-Ons
 - **Gel Polish Removal**: $5 
- Safe removal of gel polish.
 - **Acrylic/Builder Gel Removal**: $20  
- Safe removal of Acrylic/Builder Gel
 - **Cutbuff Shape**: $15
 - **Buff Shape + Normal Polish**: $25
 
