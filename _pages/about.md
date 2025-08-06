@@ -15,7 +15,7 @@ feature_row:
     title: "Find me on Google Map"
     excerpt: "Please give me some good feedback!"
   - image_path: /assets/images/facebookqrcode.png
-    title: "Placeholder 2"
+    title: "Find me on Facebook"
     excerpt: "You can book me on facebook too!"
 ---
 
