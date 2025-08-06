@@ -9,9 +9,9 @@ header:
   actions:
     - label: "<i class='fas fa-download'></i> Book now"
       url: "/about/"
-excerpt: >
-  Transform your nails and lashes in the comfort of my cozy, professional home studio! Book your appointment today and pamper yourself!
+excerpt: >Transform your nails and lashes in the comfort of my cozy, professional home studio! Book your appointment today and pamper yourself!
 <br />
+  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.3">Latest release v4.27.3</a></small>
 
   
 ---
