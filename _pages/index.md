@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: Welcome to My Home Studio at Unit 69, 3028 The Boulevard, Carrara
+title: Welcome to my home studio at Unit 69, 3028 The Boulevard, Carrara
 description: Welcome to Lovely Nails Studio, a cozy home-based nail salon offering personalized manicures, pedicures, nail art, and spa treatments.
 layout: splash
 hidden: true
@@ -11,8 +11,9 @@ header:
     - label: "<i class='fas fa-download'></i> Install now"
       url: "/contact/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
+  A cozy home-based nail salon offering personalized manicures, pedicures, nail art, and spa treatments<br />
   <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.3">Latest release v4.27.3</a></small>
+  
 feature_row:
   - image_path: /assets/images/nailpaint.jpg
     alt: "customizable"
@@ -59,7 +60,6 @@ Ready to book your appointment? Reach out today!
 
 [Book Your Appointment](mailto:info@lovelynailsstudio.com)
 
----
 
 &copy; 2025 Lovely Nails Studio. All rights reserved.
 
