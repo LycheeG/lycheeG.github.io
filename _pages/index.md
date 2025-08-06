@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/nailbackground2.jpg
+  overlay_image: /assets/images/nailbackground3.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Book now"
       url: "/about/"
@@ -52,8 +52,8 @@ All services include complimentary consultation to ensure your desired look. Pri
   A blend of classic and volume techniques for a fuller, textured look, offering the perfect balance of drama and natural beauty.    
 - **Volume**: $120  
  Lush, multi-dimensional lashes created with multiple lightweight extensions per natural lash, delivering bold volume and glamour.  
-- **Lash Romoval & Cleansing**: $30 
- Safe, gentle removal of eyelash extensions with a thorough cleansing to refresh and prepare your natural lashes for future treatments.  
+- **Lash Romoval & Cleansing**: $30
+  Safe, gentle removal of eyelash extensions with a thorough cleansing to refresh and prepare your natural lashes for future treatments.  
 - **Refill**
   1week free/2weeks 50%/3weeks 80%   
   
