@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/nailbackground4.jpg
+  overlay_image: /assets/images/nailbackground1.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Book now"
       url: "/about/"
@@ -59,7 +59,7 @@ All services include complimentary consultation to ensure your desired look. Pri
   
 
 ### Add-Ons
-- **Gel Polish Removal**: Extra $5 
+- **Gel Polish Removal**: Extra $5
   Safe removal of gel polish.  
 - **Acrylic/Builder Gel Removal**: $20
   Safe removal of Acrylic/Builder Gel
