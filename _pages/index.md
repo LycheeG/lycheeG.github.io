@@ -51,12 +51,11 @@ All services include complimentary consultation to ensure your desired look. Pri
 - **Hybrid**: $100  
   A blend of classic and volume techniques for a fuller, textured look, offering the perfect balance of drama and natural beauty.    
 - **Volume**: $120  
- Lush, multi-dimensional lashes created with multiple lightweight extensions per natural lash, delivering bold volume and glamour.  
-- **Lash Romoval & Cleansing**: $30
- Safe, gentle removal of eyelash extensions with a thorough cleansing to refresh and prepare your natural lashes for future treatments.  
-- **Refill**
+ Lush, multi-dimensional lashes created with multiple lightweight extensions per natural lash, delivering bold volume and glamour.
+- **Lash Romoval & Cleansing**: $30  
+ Safe, gentle removal of eyelash extensions with a thorough cleansing to refresh and prepare your natural lashes for future treatments. 
+- **Refill**:   
  1week free/2weeks 50%/3weeks 80%   
-  
 
 ### Add-Ons
 - **Gel Polish Removal**: Extra $5
