@@ -58,17 +58,17 @@ All services include complimentary consultation to ensure your desired look. Pri
  1week free/2weeks 50%/3weeks 80%   
 
 ### Add-Ons
-- **Gel Polish Removal**: Extra $5
- Safe removal of gel polish.  
-- **Acrylic/Builder Gel Removal**: $20
+- **Gel Polish Removal**: $5 
+ Safe removal of gel polish.
+- **Acrylic/Builder Gel Removal**: $20  
  Safe removal of Acrylic/Builder Gel
 - **Cutbuff Shape**: $15
 - **Buff Shape + Normal Polish**: $25
 
 
 ### Packages
-- **Mani-Pedi Combo (Classic)**:$65 
-  Save with a classic manicure and pedicure combo.  
+- **Mani-Pedi Combo (Classic)**:$65  
+ Save with a classic manicure and pedicure combo. 
 - **Mani-Pedi Combo (Gel)**: $90  
   Long-lasting gel polish for hands and feet.  
 
