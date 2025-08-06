@@ -17,7 +17,7 @@ excerpt: >
 ## Services & Price Menu
 
 All services include complimentary consultation to ensure your desired look. Prices are subject to change, and additional fees may apply for intricate designs or add-ons.
-* If you choose the Normal Polish service, please bring your own Normal polish color.
+* If you choose the Normal Polish service, please bring your own normal polish color.
 
 ### Manicures 
 - **Classic Manicure**: $30  
