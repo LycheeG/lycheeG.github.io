@@ -5,7 +5,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/nailbackground3.jpg
+  overlay_image: /assets/images/nailbackground4.jpg
   actions:
     - label: "<i class='fas fa-download'></i> Book now"
       url: "/about/"
