@@ -20,9 +20,9 @@ All services include complimentary consultation to ensure your desired look. Pri
 * If you choose the Normal Polish service, please bring your own normal polish color.
 
 ### Manicures 
-- **Classic Manicure**: $30  
+- **Classic Manicure**: $35  
   Nail shaping, cuticle care, and polish application.  
-- **Gel Manicure**: $45  
+- **Gel Manicure**: $50  
   Long-lasting gel polish with a glossy finish.  
 - **Builder Gel InFill/FullSet**: Extra $30  
   A strong, flexible gel overlay applied to natural nails or extensions for enhanced durability and a glossy finish, customizable with polish or art.  
@@ -65,9 +65,9 @@ All services include complimentary consultation to ensure your desired look. Pri
 
 
 ### Packages
-- **Mani-Pedi Combo (Classic)**:$65  
+- **Mani-Pedi Combo (Classic)**:$80  
  Save with a classic manicure and pedicure combo. 
-- **Mani-Pedi Combo (Gel)**: $90  
+- **Mani-Pedi Combo (Gel)**: $100  
   Long-lasting gel polish for hands and feet.  
 
 ## Special Notes
