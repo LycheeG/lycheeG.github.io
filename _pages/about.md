@@ -2,6 +2,7 @@
 title: Contact Lychee’s Nail & Lash Home Studio | Carrara QLD
 description: Book nail and lash appointments at Lychee’s Home Studio in Carrara. Text or call 0451 329 155. Open 10am–8pm, closed Saturdays. Located at Unit 69, 3028 The Boulevard.
 keywords: book nail salon Carrara, lash extensions booking Carrara, contact Lychee nail studio
+permalink: /about/
 ---
 
 # Book at Lychee’s Nail & Lash Home Studio
