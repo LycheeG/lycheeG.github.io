@@ -1,8 +1,6 @@
 ---
 layout: splash
-title: Lychee’s Nail & Lash Home Studio | Carrara QLD
-description: Professional nail salon and lash extensions in Carrara. Gel manicures $50, pedicures $40–$55, classic lashes $80. Home studio at Unit 69, 3028 The Boulevard. Book on 0451 329 155.
-keywords: nail salon Carrara, lash extensions Carrara, gel manicure Gold Coast, pedicure Carrara, home nail studio, nail art
+title: Welcome to my home studio at Unit 69, 3028 The Boulevard, Carrara
 permalink: /
 hidden: true
 header:
@@ -82,4 +80,3 @@ Thank you for choosing Lychee's Nail and Lash Home Studio! I look forward to mak
 ---
 
 *Prices updated as of August 2025. Please contact us for the latest promotions or seasonal specials.*
-
