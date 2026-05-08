@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Nail Art & Lash Extensions | Lychee's Nail Studio Carrara</title>
+  <meta name="description" content="Browse our gallery of nail art, gel manicures, lash extensions and our cozy home studio in Carrara, Gold Coast. See our work before you book!">
+  <meta name="keywords" content="nail art gallery Gold Coast, lash extensions photos, gel manicure designs, nail studio Carrara">
+  <link rel="canonical" href="https://lycheeg.github.io/gallery.html">
+  <meta property="og:title" content="Gallery | Lychee's Nail and Lash Studio">
+  <meta property="og:description" content="Browse our gallery of nail art, gel manicures, lash extensions and our cozy home studio.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lycheeg.github.io/gallery.html">
+  <meta property="og:image" content="https://lycheeg.github.io/images/cateye.jpg">
+  <meta property="og:locale" content="en_AU">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.png" alt="Lychee's Nail and Lash Home Studio">
+        <span>Lychee's Nail & Lash</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="booking.html">Book Now</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <h1>Our Gallery</h1>
+    <div class="gold-divider"></div>
+    <p>A showcase of our nail art and lash extension work</p>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section">
+    <div class="container">
+      <div class="gallery-grid">
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/studio/studio-room.jpg" alt="Lychee's home studio with lake view">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/studio/studio-desk.jpg" alt="Professional nail desk setup">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/studio/studio-polishes.jpg" alt="Gel polish colour collection">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/studio/studio-branding.jpg" alt="Lychee branded apron and tools">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/studio/studio-card.jpg" alt="Lychee Nail Studio business card">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/cateye.jpg" alt="Cat eye nail art designs">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/lash-extensions.jpg" alt="Lash extension application">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/nails-elegant.jpg" alt="Elegant pastel gel nails">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/nails-art.jpg" alt="Love nail art design">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/gel-manicure.jpg" alt="Gel nail tip selection">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/nails-pastel.jpg" alt="Natural nude manicure">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/nails-pink.jpg" alt="Dark glam nail art">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/nail-polish-colors.jpg" alt="Nail polish colour selection">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/manicure-process.jpg" alt="Manicure in progress">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/colorful-nails.jpg" alt="Colourful nail polish collection">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/hero-new.jpg" alt="Professional nail service">
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="images/gallery/neon-nails.jpg" alt="Neon nail art under UV light">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" src="" alt="Gallery image">
+  </div>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Love What You See?</h2>
+      <p>Book your appointment and let's create your perfect look</p>
+      <a href="booking.html" class="btn btn-outline">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Lychee's Nail & Lash</h4>
+          <p>Professional nail and lash services in the comfort of a cozy home studio. Personalised care for every client.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61578962634658" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Unit 69, 3028 The Boulevard<br>Carrara, QLD</p>
+          <p style="margin-top: 8px;">0451 329 155</p>
+          <p style="margin-top: 8px;">Every day 10am - 8pm<br>(Closed Saturdays)</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Lychee's Nail and Lash Home Studio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chatbot -->
+  <button class="chatbot-toggle" onclick="toggleChatbot()" aria-label="Open chat">
+    <i class="fas fa-comments"></i>
+  </button>
+  <div class="chatbot-window" id="chatbot">
+    <div class="chatbot-header">
+      <h4>Chat with Lychee</h4>
+      <button class="chatbot-close" onclick="toggleChatbot()">&times;</button>
+    </div>
+    <div class="chatbot-messages" id="chatMessages"></div>
+    <div class="chatbot-input">
+      <input type="text" id="chatInput" placeholder="Type a message..." onkeypress="if(event.key==='Enter')sendChat()">
+      <button onclick="sendChat()">Send</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
