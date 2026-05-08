@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lychee Nail Studio - Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      color: #333;
+      background: white;
+      width: 210mm;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .page {
+      width: 210mm;
+      padding: 20mm 15mm 15mm;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8mm;
+      padding-bottom: 5mm;
+      border-bottom: 2px solid #d4708f;
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-logo img {
+      height: 70px;
+    }
+
+    .header-title h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22pt;
+      color: #d4708f;
+      letter-spacing: 1px;
+    }
+
+    .header-title p {
+      font-size: 9pt;
+      color: #888;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    /* Two column layout */
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8mm;
+    }
+
+    /* Section */
+    .section {
+      margin-bottom: 6mm;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 13pt;
+      color: #d4708f;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 3mm;
+      padding-bottom: 1.5mm;
+      border-bottom: 1px solid #f0c4d4;
+    }
+
+    /* Menu items */
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 1.2mm 0;
+      font-size: 9.5pt;
+    }
+
+    .item-name {
+      font-weight: 600;
+      color: #333;
+    }
+
+    .item-sub {
+      padding-left: 4mm;
+    }
+
+    .item-sub .item-name {
+      font-weight: 400;
+      color: #555;
+    }
+
+    .item-dots {
+      flex: 1;
+      border-bottom: 1px dotted #ccc;
+      margin: 0 3mm;
+      min-width: 10mm;
+    }
+
+    .item-price {
+      font-weight: 600;
+      color: #d4708f;
+      white-space: nowrap;
+    }
+
+    .item-note {
+      font-size: 8pt;
+      color: #888;
+      font-style: italic;
+    }
+
+    /* Special note */
+    .note {
+      margin-top: 3mm;
+      padding: 2mm 3mm;
+      background: #fdf2f5;
+      border-radius: 4px;
+      font-size: 8pt;
+      color: #d4708f;
+      line-height: 1.5;
+    }
+
+    .note strong {
+      font-weight: 700;
+    }
+
+    /* Refill line */
+    .refill-line {
+      font-size: 8.5pt;
+      color: #555;
+      padding: 1mm 0;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 6mm;
+      padding-top: 5mm;
+      border-top: 2px solid #d4708f;
+      text-align: center;
+    }
+
+    .footer-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 16pt;
+      color: #d4708f;
+      margin-bottom: 3mm;
+    }
+
+    .footer-info {
+      display: flex;
+      justify-content: center;
+      gap: 8mm;
+      font-size: 9pt;
+      color: #555;
+      flex-wrap: wrap;
+    }
+
+    .footer-info span {
+      display: flex;
+      align-items: center;
+      gap: 2mm;
+    }
+
+    .footer-info .icon {
+      color: #d4708f;
+      font-weight: 700;
+    }
+
+    /* Decorative border */
+    .border-wrap {
+      border: 1.5px solid #f0c4d4;
+      border-radius: 4px;
+      padding: 4mm;
+    }
+
+    .border-inner {
+      border: 0.5px solid #e8d5a8;
+      border-radius: 2px;
+      padding: 6mm;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        width: 210mm;
+      }
+
+      .page {
+        page-break-after: avoid;
+      }
+
+      .no-print {
+        display: none;
+      }
+    }
+
+    /* Print button (screen only) */
+    .print-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 12px 24px;
+      background: #d4708f;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(212, 112, 143, 0.3);
+      z-index: 100;
+    }
+
+    .print-btn:hover {
+      background: #c4607f;
+    }
+
+    @media print {
+      .print-btn { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <button class="print-btn no-print" onclick="window.print()">Print / Save as PDF</button>
+
+  <div class="page">
+   <div class="border-wrap">
+    <div class="border-inner">
+
+    <!-- Header -->
+    <div class="header">
+      <div class="header-logo">
+        <img src="images/logo.png" alt="Lychee Nail Studio">
+        <div class="header-title">
+          <h1>LYCHEE</h1>
+          <p>Nail &amp; Lash Home Studio</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Two columns -->
+    <div class="columns">
+
+      <!-- Left Column -->
+      <div>
+
+        <!-- Manicure & Pedicure -->
+        <div class="section">
+          <div class="section-title">Manicure &amp; Pedicure</div>
+
+          <div class="item">
+            <span class="item-name">Manicure</span>
+            <span class="item-dots"></span>
+            <span class="item-price"></span>
+          </div>
+          <div class="item item-sub">
+            <span class="item-name">with NORMAL polish</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$40</span>
+          </div>
+          <div class="item item-sub">
+            <span class="item-name">with GEL polish</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$55</span>
+          </div>
+
+          <div class="item" style="margin-top: 2mm;">
+            <span class="item-name">Pedicure</span>
+            <span class="item-dots"></span>
+            <span class="item-price"></span>
+          </div>
+          <div class="item item-sub">
+            <span class="item-name">with NORMAL polish</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$50</span>
+          </div>
+          <div class="item item-sub">
+            <span class="item-name">with GEL polish</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$60</span>
+          </div>
+
+          <div class="item" style="margin-top: 2mm;">
+            <span class="item-name">Manicure &amp; Pedicure</span>
+            <span class="item-dots"></span>
+            <span class="item-price"></span>
+          </div>
+          <div class="item item-sub">
+            <span class="item-name">with GEL polish</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$110</span>
+          </div>
+
+          <div class="note">* If you choose the Normal Polish service, please bring your own <strong>Normal Polish</strong> colour.</div>
+        </div>
+
+        <!-- Builder Gel -->
+        <div class="section">
+          <div class="section-title">Builder Gel</div>
+
+          <div class="item">
+            <span class="item-name">Builder Gel InFill</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$80</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Builder Gel InFill with Tip</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$90</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Column -->
+      <div>
+
+        <!-- Lash Extensions -->
+        <div class="section">
+          <div class="section-title">Lash Extensions</div>
+
+          <div class="item">
+            <span class="item-name">Hybrid Natural Style</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$120</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Volume</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$140</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Lash Removal &amp; Cleansing</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$30</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Refill</span>
+            <span class="item-dots"></span>
+            <span class="item-price"></span>
+          </div>
+          <div class="refill-line" style="padding-left: 4mm;">1 Week Free &bull; 2 Weeks 50% &bull; 3 Weeks 80%</div>
+        </div>
+
+        <!-- Nail Enhancements -->
+        <div class="section">
+          <div class="section-title">Nail Enhancements</div>
+
+          <div class="item">
+            <span class="item-name">Nail Art</span>
+            <span class="item-dots"></span>
+            <span class="item-price">From $10</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Design Nail Art (Fullset)</span>
+            <span class="item-dots"></span>
+            <span class="item-price">From $35</span>
+          </div>
+          <div class="item">
+            <span class="item-name">French Tip / Metallic / Cat Eyes / Diamond / Stickers</span>
+            <span class="item-dots"></span>
+            <span class="item-price">From $10</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Buff, Shape + Normal Polish</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$30</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Gel Polish Removal</span>
+            <span class="item-dots"></span>
+            <span class="item-price">Extra $5</span>
+          </div>
+          <div class="item">
+            <span class="item-name">Acrylic / Builder Gel Removal</span>
+            <span class="item-dots"></span>
+            <span class="item-price">$25</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footer-name">Lychee Nail &amp; Lash Home Studio</div>
+      <div class="footer-info">
+        <span><span class="icon">&#128205;</span> U69/3028 The Boulevard, Carrara QLD 4211</span>
+        <span><span class="icon">&#128222;</span> 0451 329 155</span>
+        <span><span class="icon">&#128279;</span> lycheeg.github.io</span>
+      </div>
+    </div>
+
+    </div>
+   </div>
+  </div>
+
+</body>
+</html>
