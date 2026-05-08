@@ -279,20 +279,10 @@
   </footer>
 
   <!-- Chatbot -->
-  <button class="chatbot-toggle" onclick="toggleChatbot()" aria-label="Open chat">
-    <i class="fas fa-comments"></i>
-  </button>
-  <div class="chatbot-window" id="chatbot">
-    <div class="chatbot-header">
-      <h4>Chat with Lychee</h4>
-      <button class="chatbot-close" onclick="toggleChatbot()">&times;</button>
-    </div>
-    <div class="chatbot-messages" id="chatMessages"></div>
-    <div class="chatbot-input">
-      <input type="text" id="chatInput" placeholder="Type a message..." onkeypress="if(event.key==='Enter')sendChat()">
-      <button onclick="sendChat()">Send</button>
-    </div>
-  </div>
+  <!-- Messenger Button -->
+  <a href="https://m.me/61578962634658" target="_blank" class="messenger-fab" aria-label="Chat on Messenger">
+    <i class="fab fa-facebook-messenger"></i>
+  </a>
 
   <script src="js/main.js"></script>
 </body>
