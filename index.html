@@ -50,9 +50,21 @@
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "dayOfWeek": ["Sunday", "Tuesday"],
         "opens": "10:00",
-        "closes": "20:00"
+        "closes": "19:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Wednesday"],
+        "opens": "15:00",
+        "closes": "19:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": "10:00",
+        "closes": "19:00"
       }
     ],
     "priceRange": "$$",
@@ -109,7 +121,7 @@
         "name": "What are the opening hours?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We are open Sunday to Friday, 10:00 AM to 8:00 PM. We are closed on Saturdays."
+          "text": "Sunday &amp; Tuesday: 10 AM – 7:30 PM. Monday &amp; Wednesday: 3 – 7:30 PM. Thursday: 10 AM – 7 PM. Friday &amp; Saturday: Closed."
         }
       },
       {
@@ -382,7 +394,7 @@
         </details>
         <details class="faq-item">
           <summary>What are the opening hours?</summary>
-          <p>We are open Sunday to Friday, 10:00 AM to 8:00 PM. We are closed on Saturdays.</p>
+          <p>Sunday &amp; Tuesday: 10 AM &ndash; 7:30 PM<br>Monday &amp; Wednesday: 3 PM &ndash; 7:30 PM<br>Thursday: 10 AM &ndash; 7 PM<br>Friday &amp; Saturday: Closed</p>
         </details>
         <details class="faq-item">
           <summary>How do I book an appointment?</summary>
